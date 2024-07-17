@@ -1,5 +1,7 @@
 export const navItems = [
+    
     { name: "About", link: "#about" },
+    { name: "Skills", link: "#skills"},
     { name: "Projects", link: "#projects" },
     { name: "Experience", link: "#experience" },
     { name: "Contact", link: "#contact" },
@@ -8,12 +10,12 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "I prioritize client collaboration, fostering open communication ",
+        title: "I focus on working closely with clients, promoting transparent communication",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
         titleClassName: "justify-end",
-        img: "/b1.svg",
+        img: "/b1.jpg",
         spareImg: "",
     },
     {
@@ -23,84 +25,89 @@ export const gridItems = [
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-start",
-        img: "",
+        img: "/images/b1.jpg",
         spareImg: "",
     },
     {
         id: 3,
-        title: "My tech stack",
-        description: "I constantly try to improve",
+        title: "My goal stack",
+        description: "I continually work on improving",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-center",
-        img: "",
+        img: "/images/5.jpg",
         spareImg: "",
     },
     {
         id: 4,
-        title: "Tech enthusiast with a passion for development.",
+        title: "Technology enthusiast passionate about development.",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
         titleClassName: "justify-start",
-        img: "/grid.svg",
-        spareImg: "/b4.svg",
+        img: "/10.jpg",
+        spareImg: "/b5.svg",
     },
-
     {
         id: 5,
-        title: "Currently working on a Defi protocol",
-        description: "The Inside Scoop",
-        className: "md:col-span-3 md:row-span-2",
-        imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-        titleClassName: "justify-center md:justify-start lg:justify-center",
-        img: "/b5.svg",
-        spareImg: "/grid.svg",
-    },
-    {
-        id: 6,
-        title: "Do you want to start a project together?",
+        title: "Are you interested in starting a project with me?",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
         titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-        img: "",
-        spareImg: "",
+        img: "22.jpg",
+        spareImg: "/grid.svg",
     },
 ];
 
 export const projects = [
     {
         id: 1,
-        title: "Car Slayer",
-        des: "A blockchain-based NFT game where players can buy, sell, and trade car NFTs using cryptocurrency.",
-        img: "/nft-game.png",
+        title: "UPDF AI Online",
+        des: "The Most Powerful AI Assistant to Chat with PDF and Ask Anything Online",
+        img: "/images/4.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://car-slayer.vercel.app/",
+        link: "https://updf.ai/",
     },
     {
         id: 2,
-        title: "NFT minting Dapp",
-        des: "A decentralized application that allows users to mint NFTs using the Avalanche blockchain.",
-        img: "/nft.png",
+        title: "DocsBot AI",
+        des: "Get instant answers for you, your customers, or your team with AI powered chatbots trained with your content and documentation.",
+        img: "/images/3.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "https://nft-minting-kappa.vercel.app/",
+        link: "https://docsbot.ai/",
     },
     {
         id: 3,
-        title: "Stakify",
-        des: "A decentralized application that allows users to stake tokens and earn rewards on the Polygon blockchain.",
-        img: "/stakify.png",
+        title: "Bharat Bot",
+        des: "Your Everyday Chatbot Partner",
+        img: "/images/5.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "https://stakify-rose.vercel.app/",
+        link: "https://bharatbot.ai/",
     },
     {
         id: 4,
-        title: "AI Article Summarizer",
-        des: "A web application that uses AI to summarize articles and text from different blogs.",
-        img: "/summarizer.png",
+        title: "Your free AI messenger now with GPT",
+        des: "We connect you with the AI of GPT. Just launch the WebApp or add a Telegram/Whatsapp contact and ask anything you want to know. You're looking for advice, help, entertainment, a recipe or DIY. Ask the AI!",
+        img: "/images/6.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://ai-summarizer-sumz.netlify.app/",
+        link: "https://yourchat.ai/",
+    },
+    {
+        id: 5,
+        title: "Cognitive AI for Healthcare",
+        des: "Juji powers cognitive AI assistants in the form of chatbots for telehealth.",
+        img: "/images/7.png",
+        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+        link: "https://juji.io/healthcare-chatbot/",
+    },
+    {
+        id: 6,
+        title: "AI-Chatbot for student",
+        des: "",
+        img: "/images/7.jpg",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        link: "https://studentchatbot.azurewebsites.net/",
     },
 ];
 
@@ -173,17 +180,188 @@ export const companies = [
 export const workExperience = [
     {
         id: 1,
-        title: "Blockchain Developer",
-        desc: "Build full-stack blockchain applications, from smart contracts to front-end interfaces using Solidity & React.js",
+        title: "Full-Stack Web Developer",
+        desc: "Build full-stack Web applications, from smart contracts to front-end interfaces using Solidity & React.js. MERN-Stack, Python & Django, Ruby on Rails",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Blockchain Intern",
-        desc: "Assisted in developing tokenomics for a new cryptocurrency project.",
+        title: "AI expert engineer",
+        desc: "Helped develop numerous AI chatbots for children's education and Healthcare.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp2.svg",
+    }
+];
+
+export const mySkills = [
+    {
+        id: 1,
+        title: "Gen AI",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/GenAI.png",
+    },
+    {
+        id: 2,
+        title: "Chatbot",
+        desc: "",
+        className: "md:col-span-6", // change to md:col-span-2
+        thumbnail: "/logo/chatbot.png",
+    },
+    {
+        id: 3,
+        title: "GPT-4",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/gpt.png",
+    },
+    {
+        id: 4,
+        title: "ChatGPT",
+        desc: "",
+        className: "md:col-span-6", // change to md:col-span-2
+        thumbnail: "/logo/chatgpt.png",
+    },
+    {
+        id: 5,
+        title: "LLM",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/cloud.svg",
+    },
+    {
+        id: 6,
+        title: "Langchain",
+        desc: "",
+        className: "md:col-span-6", // change to md:col-span-2
+        thumbnail: "/c.svg",
+    },
+    {
+        id: 7,
+        title: "Hugging Face",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/hface.svg",
+    },
+    {
+        id: 8,
+        title: "Cloud",
+        desc: "",
+        className: "md:col-span-6", // change to md:col-span-2
+        thumbnail: "/logo/cloudflare.png",
+    },
+    {
+        id: 9,
+        title: "RAG",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/RAG.png",
+    },
+    {
+        id: 10,
+        title: "AWS",
+        desc: "",
+        className: "md:col-span-6", // change to md:col-span-2
+        thumbnail: "/logo/logo_aws.png",
+    },
+    {
+        id: 11,
+        title: "Azure",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/logo_azure.png",
+    },
+    {
+        id: 12,
+        title: "React",
+        desc: "",
+        className: "md:col-span-6", // change to md:col-span-2
+        thumbnail: "/logo/react-js.png",
+    },
+    {
+        id: 13,
+        title: "Node",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/node-js.png",
+    },
+    {
+        id: 14,
+        title: "JavaScript",
+        desc: "",
+        className: "md:col-span-6", // change to md:col-span-2
+        thumbnail: "/logo/jsm-logo.png",
+    },
+    {
+        id: 15,
+        title: "TypeScript",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/ts.png",
+    },
+    {
+        id: 16,
+        title: "Next",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/next-js.png",
+    },
+    {
+        id: 17,
+        title: "MongoDB",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/icons8-mongodb-144.png",
+    },
+    {
+        id: 18,
+        title: "Python",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/python.png",
+    },
+    {
+        id: 19,
+        title: "Django",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/logo_dj.png",
+    },
+    {
+        id: 20,
+        title: "Ruby",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/ruby.png",
+    },
+    {
+        id: 21,
+        title: "Ruby on Rails",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/rails-1.svg",
+    },
+    {
+        id: 22,
+        title: "PHP",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/logo_php.png",
+    },
+    {
+        id: 23,
+        title: "Tailwind CSS",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/tailwind-css.png",
+    },
+    {
+        id: 24,
+        title: "Meteor",
+        desc: "",
+        className: "md:col-span-6",
+        thumbnail: "/logo/meteor.svg",
     }
 ];
 
@@ -191,16 +369,16 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
-        link: "https://github.com/nirban256"
+        link: "https://github.com/haroldcristopher"
     },
     {
         id: 2,
         img: "/twit.svg",
-        link: "https://x.com/NirbanChakrab10"
+        link: "https://x.com/"
     },
     {
         id: 3,
         img: "/link.svg",
-        link: "https://www.linkedin.com/in/nirban-chakraborty/"
+        link: "https://www.linkedin.com/haroldcristopher"
     },
 ];

@@ -11,13 +11,13 @@ const Approach = () => {
                 My <span className="text-purple">approach</span>
             </h1>
             <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
-                <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase-1" />} description="We'll collaborate to map out your goals, key functionalities and target audience.">
+                <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase-1" />} description="We'll work together to outline your objectives, identify key features, and define your target audience.">
                     <CanvasRevealEffect
                         animationSpeed={5.1}
                         containerClassName="bg-emerald-900"
                     />
                 </Card>
-                <Card title="Development & Progress Update" icon={<AceternityIcon order="Phase-2" />} description="Once we agree on the plan I will start coding and keeping you updated on every step of the way.">
+                <Card title="Development & Progress Update" icon={<AceternityIcon order="Phase-2" />} description="Once we finalize the plan, I'll begin coding and provide you with regular updates throughout the process.">
                     <CanvasRevealEffect
                         animationSpeed={3}
                         containerClassName="bg-black"
@@ -28,10 +28,10 @@ const Approach = () => {
                         dotSize={2}
                     />
                 </Card>
-                <Card title="Development & Launch" icon={<AceternityIcon order="Phase-3" />} description="Based on the design, I'll translate everything into functional code, building the software ground up.">
+                <Card title="Development & Launch" icon={<AceternityIcon order="Phase-3" />} description="I'll transform everything into functional code, constructing the software from the ground up.">
                     <CanvasRevealEffect
                         animationSpeed={3}
-                        containerClassName="bg-sky-600"
+                        containerClassName="bg-red-600"
                         colors={[[125, 211, 252]]}
                     />
                 </Card>
