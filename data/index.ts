@@ -383,7 +383,7 @@ export const socialMedia = [
     },
     {
         id: 4,
-        img: "/git.svg",
+        img: "/insta.svg",
         link: "https://www.facebook.com/profile.php?id=61561726574184&mibextid=ZbWKwL"
     },
     {
