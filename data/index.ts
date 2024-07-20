@@ -381,4 +381,19 @@ export const socialMedia = [
         img: "/link.svg",
         link: "https://www.linkedin.com/haroldcristopher"
     },
+    {
+        id: 4,
+        img: "/git.svg",
+        link: "https://www.facebook.com/profile.php?id=61561726574184&mibextid=ZbWKwL"
+    },
+    {
+        id: 5,
+        img: "/insta.svg",
+        link: "https://www.instagram.com/harold.digitalbusiness?igsh=NHp0bWI2aHg5b2dh"
+    },
+    {
+        id: 6,
+        img: "/link.svg",
+        link: "https://www.reddit.com/u/Enginner-IA202/s/AWPH7sDa1U"
+    },
 ];
