@@ -65,7 +65,7 @@ export const projects = [
         id: 1,
         title: "UPDF AI Online",
         des: "The Most Powerful AI Assistant to Chat with PDF and Ask Anything Online",
-        img: "/images/4.png",
+        img: "/images/4.PNG",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
         link: "https://updf.ai/",
     },
@@ -73,7 +73,7 @@ export const projects = [
         id: 2,
         title: "DocsBot AI",
         des: "Get instant answers for you, your customers, or your team with AI powered chatbots trained with your content and documentation.",
-        img: "/images/3.png",
+        img: "/images/3.PNG",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
         link: "https://docsbot.ai/",
     },
@@ -81,7 +81,7 @@ export const projects = [
         id: 3,
         title: "Bharat Bot",
         des: "Your Everyday Chatbot Partner",
-        img: "/images/5.png",
+        img: "/images/5.PNG",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
         link: "https://bharatbot.ai/",
     },
@@ -89,7 +89,7 @@ export const projects = [
         id: 4,
         title: "Your free AI messenger now with GPT",
         des: "We connect you with the AI of GPT. Just launch the WebApp or add a Telegram/Whatsapp contact and ask anything you want to know. You're looking for advice, help, entertainment, a recipe or DIY. Ask the AI!",
-        img: "/images/6.png",
+        img: "/images/6.PNG",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
         link: "https://yourchat.ai/",
     },
@@ -97,7 +97,7 @@ export const projects = [
         id: 5,
         title: "Cognitive AI for Healthcare",
         des: "Juji powers cognitive AI assistants in the form of chatbots for telehealth.",
-        img: "/images/7.png",
+        img: "/images/7.PNG",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
         link: "https://juji.io/healthcare-chatbot/",
     },
@@ -380,5 +380,20 @@ export const socialMedia = [
         id: 3,
         img: "/link.svg",
         link: "https://www.linkedin.com/haroldcristopher"
+    },
+    {
+        id: 4,
+        img: "/insta.svg",
+        link: "https://www.facebook.com/profile.php?id=61561726574184&mibextid=ZbWKwL"
+    },
+    {
+        id: 5,
+        img: "/insta.svg",
+        link: "https://www.instagram.com/harold.digitalbusiness?igsh=NHp0bWI2aHg5b2dh"
+    },
+    {
+        id: 6,
+        img: "/link.svg",
+        link: "https://www.reddit.com/u/Enginner-IA202/s/AWPH7sDa1U"
     },
 ];
