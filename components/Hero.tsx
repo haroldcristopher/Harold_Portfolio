@@ -29,10 +29,10 @@ const Hero = () => {
                         Dynamic Web Magic with Next.js
                     </h2> */}
 
-                    <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='let us lead revolutionary developments in AI, advancing technology to build a smarter and more inclusive future' />
+                    <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Let us spearhead groundbreaking developments in blockchain technology to create a more secure, transparent, and inclusive future' />
 
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                        Hello, I&apos;m Harold Garzon, a Senior Generative AI Engineer and Full-Stack Developer.
+                        Hello, I&apos;m Harold Cristopher, a BlockChain developer and Full-Stack developer.
                     </p>
 
                     <a href="#projects">
